@@ -41,3 +41,20 @@ footer {
 .net-img img {
     width: 100%;
 }
+
+#logo{
+    margin: 5px 100px ;
+}
+
+ul{
+    list-style: none;
+}
+.contacto-nav{
+    font-size: 20px;
+    text-align: right;
+    margin-top:100px;
+}
+
+.caption h3{
+    text-align: center;
+}
