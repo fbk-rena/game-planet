@@ -15,16 +15,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-footer {
-    width: 100%;
-    display: flex;
-    background-color: #17BEBB;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    text-align: center;
-}
+
 
 .social-net {
     width: 60%;
