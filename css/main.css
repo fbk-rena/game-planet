@@ -61,7 +61,7 @@ ul{
 
 /*formulario contacto*/
 .background-form{
-	background-color: #2d7dd2;
+	background: rgba(244,93,1,.9);
 	font-size: 2em;
 	font-family: 'Coming Soon', cursive;
 }
@@ -76,7 +76,7 @@ ul{
 .btn-color{
 	width: 20%;
 	background-color: #97cc04;
-	color: #2d7dd2;
+	color: black;
 }
 .image-form{
 	width: 25%;
@@ -91,6 +91,7 @@ iframe{
 	margin-right: 20%;
 	width: 50vw;
 	height: 50vh;
+	margin-bottom: 10%;
 }
 /*Termina formulario contact*/
 
