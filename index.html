@@ -1,13 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Game Planet</title>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <section class="row">
+                <div class="col-md-2">
+                    <img id="logo" src="assets/gameplanet.png">
+                </div>
+                <div class="col-md-10 contacto-nav">
+                    <span class="glyphicons glyphicons-user" aria-hidden="true"></span>
+                    <p>Hola,<a>&nbsp;Ingresa|Crea una cuenta</a></p>
+
+                </div>
+            </section>
+
+            <nav class="navbar">
+                <section class="row">
+                    <div class="dropdown show col-md-12">
+                        <!-- nintendo -->
+                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Nintendo Switch
+							</a>
+                        <section class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
+                            <div id="catalogo-nintendo">
+                                <ul>
+                                    <li>
+                                        <div class="col-sm-6 col-md-12">
+                                            <div class="caption">
+                                                <h3>Nintento Switch</h3>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <img src="..." alt="...">
+                                            </div>
+                                            <button type="button" class="btn">
+													<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+												</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- /nintendo -->
+                    <div class="dropdown show col-md-12">
+                        <!-- xbox -->
+                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Xbox One
+							</a>
+                        <section class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
+                            <div id="catalogo-xbox">
+                                <ul>
+                                    <li>
+                                        <div class="col-sm-6 col-md-12">
+                                            <div class="caption">
+                                                <h3>Nintento Switch</h3>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <img src="..." alt="...">
+                                            </div>
+                                            <button type="button" class="btn">
+													<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+												</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                    </div>
+                    <!-- /xbox -->
+                    <div class="dropdown show col-md-12">
+                        <!-- PS4 -->
+                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Play Station 4
+							</a>
+                        <seccion class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
+                            <div id="catalogo-PS4">
+                                <ul>
+                                    <li>
+                                        <div class="col-sm-6 col-md-12">
+                                            <div class="caption">
+                                                <h3>Nintento Switch</h3>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <img src="..." alt="...">
+                                            </div>
+                                            <button type="button" class="btn">
+													<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+												</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /PS4 -->
+
+                </section>
+            </nav>
+        </nav>
+    </header>
+    <!-- Slide -->
+    <section>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
 
   <body>
     <header>
@@ -19,7 +132,6 @@
           <span class="glyphicons glyphicons-user" aria-hidden="true"></span>
           <p>Hola,<a>&nbsp;Ingresa|Crea una cuenta</a></p>
         </div>
-
             <div class="dropdown show">
               <!-- nintendo -->
               <button class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -175,6 +287,15 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="assets/juegos-de-nintendo-swthc.jpg" alt="Switch" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="assets/destiny-2-banner.jpg" alt="Destiny 2" style="width:100%;">
+                </div>
+
               <div class="item active">
                 <img src="assets/juegos-de-nintendo-swthc.jpg" alt="Switch" style="width:100%;">
               </div>
@@ -233,11 +354,67 @@
 								<img src="assets/crash-bandicoot-n-sane-trilogy-standard-banner.png" alt="Crash N Sane" style="width:100%;">
 							</div>
 						</div>
-            </div>
+					</div>
+         <div class="item">
+                    <img src="assets/Injustice-2-Banner.jpg" alt="Injustice 2" style="width:100%;">
+                </div>
 
+                <div class="item">
+                    <img src="assets/tekken-7-banner.jpg" alt="Tekken 7" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="assets/crash-bandicoot-n-sane-trilogy-standard-banner.png" alt="Crash N Sane" style="width:100%;">
+                </div>
+            </div>
         </div>
     </section>
-    <!-- footer -->    
+    <section id="nav-redes" class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtro <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">Nintendo Switch</li>
+                        <li><a href="#">Consola</a></li>
+                        <li><a href="#">Juego</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">XBox One</li>
+                        <li><a href="#">Consola</a></li>
+                        <li><a href="#">Juego</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Play Station 4</li>
+                        <li><a href="#">Consola</a></li>
+                        <li><a href="#">Juego</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <section id="redes">
+                <a class="btn btn-social-icon btn-twitter">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                 <a class="btn btn-social-icon btn-facebook">
+                    <span class="fa fa-facebook"></span>
+                </a>
+
+            </section>
+        </nav>
+    </section>
+
+    <!-- footer -->
     <footer>
       <section class="container-fluid">
         <div class="col-md-2 col-xs-2">
@@ -296,12 +473,34 @@
           <img src="https://cloud.githubusercontent.com/assets/5503597/7217235/a6c6c11a-e5ea-11e4-9017-149693027cef.png">
           </div>
           </div>
+       
+                <div>
+                    <h5><strong>APPS</strong></h5>
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                    <i class="fa fa-android" aria-hidden="true"></i>
+                </div>
+
+                <div>
+                    <h5><strong>FORMAS DE PAGO</strong></h5>
+                    <p><i class="fa fa-paypal" aria-hidden="true"></i> &nbsp; Crédito</p>
+                    <p><i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                        <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                    </p>
+                    <p><i class="fa fa-paypal" aria-hidden="true"></i> &nbsp; Débito</p>
+                    <span>BBVA  Banamex <br></span><span> HSBC Santander <br></span><span> BANORTE  INBURSA <br> Banco Azteca</span>
+                    <div>
+                        <img src="https://cloud.githubusercontent.com/assets/5503597/7217235/a6c6c11a-e5ea-11e4-9017-149693027cef.png">
+                    </div>
+                </div>
 
 
-        </div>
-      </section>
+            </div>
+        </section>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
+
