@@ -62,3 +62,20 @@ ul{
 .largo{
   min-height: 250px;
 }
+
+.carrito{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.nintendo{
+  background-color: #FFA500;
+}
+
+.x-box{
+  background-color: #97CC04;
+}
+
+.ps{
+  background-color: #2D7DD2;
+}
