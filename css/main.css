@@ -59,9 +59,44 @@ ul{
     text-align: center;
 }
 
+/*formulario contacto*/
+.background-form{
+	background-color: #2d7dd2;
+	font-size: 2em;
+	font-family: 'Coming Soon', cursive;
+}
+.logo-form{
+	padding-top: 5%;
+	width: 35%;
+	font-size: 3em;
+}
+.form{
+	margin-top: 5%;
+}
+.btn-color{
+	background-color: #97cc04;
+	color: #2d7dd2;
+}
+.image-form{
+	width: 25%;
+	display:inline-block;
+}
+.black{
+	color: black;
+	font-weight: bold;
+}
+iframe{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 50vw;
+	height: 50vh;
+}
+/*Termina formulario contact*/
+
 .largo{
   min-height: 250px;
 }
+
  /*Estilo footer*/
 
 footer {
@@ -116,3 +151,4 @@ footer a:hover {
 #iconos div {
   padding-bottom: 2%;
 }
+
