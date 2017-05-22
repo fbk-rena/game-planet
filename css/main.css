@@ -1,62 +1,62 @@
 *{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	justify-content: center;
 }
 
 #btns{
-    width: 80%;
-    justify-content: center;
+	width: 80%;
+	justify-content: center;
 }
 #imagenes{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 footer {
-    width: 100%;
-    display: flex;
-    background-color: #17BEBB;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
-    text-align: center;
+	width: 100%;
+	display: flex;
+	background-color: #17BEBB;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
 }
 
 .social-net {
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
-    margin: 7px
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	margin: 7px
 }
 
 .net-img {
-    width: 3%;
+	width: 3%;
 }
 
 .net-img img {
-    width: 100%;
+	width: 100%;
 }
 
 #logo{
-    margin: 5px 100px ;
+	margin: 5px 100px ;
 }
 
 ul{
-    list-style: none;
+	list-style: none;
 }
 .contacto-nav{
-    font-size: 20px;
-    text-align: right;
-    margin-top:100px;
+	font-size: 20px;
+	text-align: right;
+	margin-top:100px;
 }
 
 .caption h3{
-    text-align: center;
+	text-align: center;
 }
 
 /*formulario contacto*/
@@ -74,6 +74,7 @@ ul{
 	margin-top: 5%;
 }
 .btn-color{
+	width: 20%;
 	background-color: #97cc04;
 	color: #2d7dd2;
 }
@@ -94,6 +95,6 @@ iframe{
 /*Termina formulario contact*/
 
 .largo{
-  min-height: 250px;
+	min-height: 250px;
 }
 
