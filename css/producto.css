@@ -37,6 +37,12 @@
   background-color: #E8E9E4;
   color:black;
   border: none;
+  border-radius: 15px;
+}
+.boton-compra:hover{
+  font-size: 101%;
+  background-color: #d6193e;
+  transition: 2s;
 }
 .detalles{
   padding: 3%;
