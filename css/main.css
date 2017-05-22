@@ -58,6 +58,7 @@ ul{
 .caption h3{
     text-align: center;
 }
+
 /*formulario contacto*/
 .background-form{
 	background-color: #2d7dd2;
@@ -90,4 +91,9 @@ iframe{
 	width: 50vw;
 	height: 50vh;
 }
-/*Termina formulario contacto*/
+/*Termina formulario contact*/
+
+.largo{
+  min-height: 250px;
+}
+
