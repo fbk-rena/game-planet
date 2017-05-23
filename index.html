@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,106 +10,159 @@
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-
-<body>
+  <body>
     <header>
-        <nav class="navbar">
-            <section class="row">
-                <div class="col-md-2">
-                    <img id="logo" src="assets/gameplanet.png">
-                </div>
-                <div class="col-md-10 contacto-nav">
-                    <span class="glyphicons glyphicons-user" aria-hidden="true"></span>
-                    <p>Hola,<a>&nbsp;Ingresa|Crea una cuenta</a></p>
+      <nav class="navbar">
+        <div class="col-md-2">
+          <img id="logo" src="assets/gameplanet.png" alt="logo">
+        </div>
+        <div class="col-md-10 contacto-nav">
+          <span class="glyphicons glyphicons-user" aria-hidden="true"></span>
+          <p>Hola,<a>&nbsp;Ingresa|Crea una cuenta</a></p>
+        </div>
 
-                </div>
-            </section>
-
-            <nav class="navbar">
-                <section class="row">
-                    <div class="dropdown show col-md-12">
-                        <!-- nintendo -->
-                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Nintendo Switch
-              </a>
-                        <section class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
-                            <div id="catalogo-nintendo">
-                                <ul>
-                                    <li>
-                                        <div class="col-sm-6 col-md-12">
-                                            <div class="caption">
-                                                <h3>Nintento Switch</h3>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="" alt="">
-                                            </div>
-                                            <button type="button" class="btn">
-                          <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                        </button>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
+        <div class="dropdown show">
+          <!-- nintendo -->
+          <button class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nintendo
+            <span class="caret"></span>
+          </button>
+          <section class="dropdown-menu nintendo">
+            <div id="catalogo-nintendo">
+              <ul>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Nintento Switch</h3>
                     </div>
-                    <!-- /nintendo -->
-                    <div class="dropdown show col-md-12">
-                        <!-- xbox -->
-                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Xbox One
-              </a>
-                        <section class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
-                            <div id="catalogo-xbox">
-                                <ul>
-                                    <li>
-                                        <div class="col-sm-6 col-md-12">
-                                            <div class="caption">
-                                                <h3>Nintento Switch</h3>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="" alt="">
-                                            </div>
-                                            <button type="button" class="btn">
-                          <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                        </button>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-
+                    <div class="thumbnail">
+                      <img src="assets/nintendo-switch.jpg" alt="nintendo switch">
                     </div>
-                    <!-- /xbox -->
-                    <div class="dropdown show col-md-12">
-                        <!-- PS4 -->
-                        <a class="btn btn-secondary" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Play Station 4
-              </a>
-                        <seccion class="dropdown-menu productos" aria-labelledby="dropdownMenuLink">
-                            <div id="catalogo-PS4">
-                                <ul>
-                                    <li>
-                                        <div class="col-sm-6 col-md-12">
-                                            <div class="caption">
-                                                <h3>Nintento Switch</h3>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="" alt="">
-                                            </div>
-                                            <button type="button" class="btn">
-                          <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                        </button>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /PS4 -->
-
-                </section>
-            </nav>
-        </nav>
+                    <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-shopping-cart carrito" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Detalles</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/nswitch.jpg" alt="Detalles switch" class="largo">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Accesorios</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/accesorio-nswitch.png" alt="accesorios switch" class="largo">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!-- xbox -->
+        <div class="dropdown show">
+          <button class="btn btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Xbox
+            <span class="caret"></span>
+          </button>
+          <section class="dropdown-menu x-box">
+            <div id="catalogo-xbox">
+              <ul>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Xbox One</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/xbox-one.jpg" alt="xbox one">
+                    </div>
+                    <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-shopping-cart carrito" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Detalles</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/xbox-one.jpg" alt="detalle x-box" class="largo">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Accesorios</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/accesorio-xbox.jpg" alt="accesorio xbox" class="largo">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!-- PS4 -->
+        <div class="dropdown show">
+          <button class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Play Station
+            <span class="caret"></span>
+          </button>
+          <section class="dropdown-menu ps">
+            <div id="catalogo-PS4">
+              <ul>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Play Station 4</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/ps4.png" alt="PS4">
+                    </div>
+                    <button type="button" class="btn btn-danger">
+                      <span class="glyphicon glyphicon-shopping-cart carrito" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Detalles</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/ps4.png" alt="PS4" class="largo">
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-sm-6 col-md-4">
+                    <div class="caption">
+                      <h3>Accesorios</h3>
+                    </div>
+                    <div class="thumbnail">
+                      <img src="assets/ps4.png" alt="PS4" class="largo">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div><!-- /PS4 -->
+      </nav>
     </header>
-    <section class="container">
+        <section class="container">
+
           <h2>Carousel Example</h2>
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
